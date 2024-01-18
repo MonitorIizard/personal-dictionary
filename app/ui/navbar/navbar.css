@@ -1,14 +1,36 @@
+:root {
+  --primary-border: #232F3E;
+}
+
 .navbar {
   height : 77px;
+  width: 100%;
   background-color: #000716;
   opacity: 0.76;
   backdrop-filter: blur(4px);
 }
 
+.hamburger {
+  width: 50px;
+  display: flex;
+  justify-content: center;
+}
+
 .searchBar {
   height : 34px;
-  border : 2px solid #9BA7B6;
+  width : 250px;
+  border : 2px solid var(--primary-border);
   border-radius: 8px;
+}
+
+button {
+  height: 34px;
+  width: 34px;
+  border : 2px solid var(--primary-border);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 input {

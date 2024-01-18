@@ -17,6 +17,7 @@ const config: Config = {
         aws_gray : {
           100 : "#FBFBFB",
           400 : "#9BA7B6",
+          500 : "#7D8998",
           600 : "#414D5C",
           700 : "#232F3E"
         }
