@@ -1,6 +1,5 @@
 import "@/app/globals.css"
 import "./navbar.css"
-import Image from "next/image"
 import { FaSearch } from "react-icons/fa";
 
 function HamburgerMenu() {
@@ -35,7 +34,7 @@ function UserIcon() {
 
 function SearchBar() {
   return (
-    <div className="searchBar flex items-center">
+    <div className="searchBar">
       <FaSearch fill="white" size={18} className="ml-3"/>
       <input type="text" placeholder="Search" />
     </div>
@@ -44,7 +43,12 @@ function SearchBar() {
 
 export default function pages() {
   return (
-    <div className="navbar flex  justify-center items-center bg-aws_gray-700 gap-3 top-0 left-0 fixed">
+    <div className="navbar 
+                    flex  
+                    justify-center items-center 
+                    bg-aws_gray-700 
+                    gap-3 top-0 left-0 
+                    fixed">
       <HamburgerMenu/>
       <SearchBar/>
       <AddIcon/> 
