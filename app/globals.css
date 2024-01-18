@@ -17,11 +17,27 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: rgb(#000716);
+  background-color: #000716;
 }
+
+p {
+  color : #FFFFFF;
+  size : 12px;
+}
+
+.card {
+  border-radius: 16px;
+  background-color: #0F1B2A;
+  padding: 20px 24px 10px 24px;
+}
+
+.word-highlight { 
+  color : #539FE5;
+}
+
+/* h1 {
+  color : #539FE5;
+  font-size: 20px;
+  font-weight: 800;
+} */
